@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Pediátrica HarmoniaCare</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li class="menuList" >
+                    <span>
+                        <p>Menu</p>
+                    </span>
+                </li>
+                <li ><a href="template.html" >Página Principal</a></li>
+                <li><a href="sobreaclinica.html" >Sobre a Clínica</a></li>
+                <li><a href="horariodeatendimento.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img class="imgLogo4" src="img/logoContato.png" alt="Imagem ilustrando o monitoramento cardíoco.">
+            </div>
+            <div >
+                <h1 >Contato</h1> 
+            </div>
+            <div class="container">
+                <!-- Aqui vai o seu conteúdo -->
+                <div class="info-container">
+                    <h2 class="infContatoH2">Entre em contato e fale com a nossa equipe</h2>
+                    <p class="infContatoP">Preencha o formulário com suas informações.</p>
+                    <p class="infContatoP">Em breve nossa equipe entrará em contato com você.</p>
+                    <form  method="post">
+                        <label >Nome - </label><input class="caixaInput" type="text" name="Nome"><br>
+                        <label >E-mail - </label><input class="caixaInput" type="email" name="Nome"><br>
+                        <label >Assunto - </label>
+                        <select class="caixaInput"  >
+                            <option value="">Selecione o Assunto</option>
+                            <option value="Alergia e Imunologia Pediátrica">Alergia e Imunologia Pediátrica </option>
+                            <option value="Infectologia Pediátrica">Infectologia Pediátrica</option>
+                            <option value="Cardiologia Pediátrica">Cardiologia Pediátrica</option>
+                            <option value="Odontopediatria">Odontopediatria</option>
+                            <option value="Sala de Vacinação">Sala de Vacinação</option>
+                            <option value="Radiologia">Radiologia</option>
+                            <option value="Tomografia">Tomografia</option>
+                        </select><br>
+                        <label >Mensagem - </label>
+                        <textarea class="caixaInput"  name="message" rows="4" cols="25">Digite seu texto aqui...</textarea><br>
+
+                        <span class="buttonCenter">
+                        <button class="button" onclick="limparCampo()">Limpar - </button><br>
+                        </span>
+                        <span class="buttonCenter" >
+                        <button class="button" type="submit">Enviar - </button>
+                        </span>
+
+                    </form>
+                </div>
+                <div class="info-container">
+                    <h2 class="infContatoH2">Informações de Contato</h2>
+                    <!-- Informações de contato -->
+                    <p class="infContatoP" >
+                      <img src="img/phone.png" alt="" width="20" height="20">
+                      (48) 98998-9999
+                    </p>
+                    <p class="infContatoP"  >
+                        <img src="img/whatsapp.png" alt="" width="20" height="20">
+                        (48) 98998-9000
+                    </p>
+              
+                    <!-- Endereço -->
+                    <h2 class="infContatoH2" >Onde estamos</h2>
+                    <p class="infContatoP"  >
+                      <img src="img/localização.png" alt="" width="30" height="30">
+                        Rua da Harmonia 123, Bairro-Feliz, Cidade-Tubarão, CEP: 12345-678,  Estado-Santa Catarina</iframe>
+                    </p>
+              
+                    <!-- Mapa do Google -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3506.9875110672497!2d-49.00311121465585!3d-28.479922756993293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1704460125975!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                  </div>
+            </div>
+    
+            <div class="footer">
+               
+                <!-- Aqui vai o seu rodapé -->
+                <p class="footerP" >&copy; 2024 Clínica Pediátrica HarmoniaCare</p>
+                 <address>
+                    Endereço: 123 Rua da Harmonia, Bairro-Feliz, Cidade-Tubarão, CEP: 12345-678,  Estado-Santa Catarina<br>
+                    Telefone: (48) 98998-9999<br>
+                    Email: contato@harmoniacare.com
+                </address>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
